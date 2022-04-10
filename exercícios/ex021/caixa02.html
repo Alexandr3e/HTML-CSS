@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+            margin: 0px;
+        }
+        nav {
+            background-color: rgb(66, 66, 66);
+            margin: 10px;
+            box-shadow: 2px 2px 3px black;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+        }
+        article > aside {
+            text-align: right;
+            background-color: rgb(124, 124, 124);
+        }
+        article > blockquote {
+            padding: 10px 150px;
+            text-align: justify;
+
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section>
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p><blockquote><q>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo sapiente, reprehenderit quo nulla placeat eos provident nostrum iusto illum eveniet, corrupti autem dolorum ducimus et molestiae tenetur in asperiores quibusdam?</q></blockquote></p>
+                <aside>
+                    <p><em>Artigo escrtio por José da Silva</em></p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Alexandre</p>
+    </footer>
+</body>
+</html>

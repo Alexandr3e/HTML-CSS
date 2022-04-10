@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+
+    --cor01: hsl(0, 0%, 100%);
+    --cor02: hsl(212, 45%, 89%);
+    --cor03: hsl(220, 15%, 55%);
+    --cor04: hsl(218, 44%, 22%);
+
+    --font-padrão: 'Outfit', sans-serif;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor02);
+}
+
+#principal {
+    background-color: white;
+    height: 340px;
+    max-width: 200px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 250px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 4px 3px 7px rgba(0, 0, 0, 0.144);
+}
+
+div > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+div > h4 {
+    font-family: var(--font-padrão);
+    color: var(--cor04);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.3em;
+}
+
+div > p {
+    font-family: var(--font-padrão);
+    color: var(--cor03);
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.3em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.attribution { font-size: 11px; 
+    text-align: center; 
+    font-family: var(--font-padrão); 
+    margin-top: 20px;
+}
+
+.attribution a { 
+    color: var(--cor03); 
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+    color: var(--cor01);
+    background-color: var(--cor04);
+    padding: 1px 3px;
+    border-radius: 2px;
+}
