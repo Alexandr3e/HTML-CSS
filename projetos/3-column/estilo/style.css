@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --color01: hsl(31, 77%, 52%);
+    --color02: hsl(184, 100%, 22%);
+    --color03: hsl(179, 100%, 13%);
+    --color04: hsla(0, 0%, 100%, 0.75);
+    --color05: hsl(0, 0%, 95%);
+
+    --fonte-destaque: 'Big Shoulders Display', cursive;
+    --fonte-padrao: 'Lexend Deca', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div h1 {
+    font-family: var(--fonte-destaque);
+    color: var(--color05);
+    padding: 35px 0 35px 0;
+    font-size: 35px;
+}
+
+div p {
+    font-family: var(--fonte-padrao);
+    color: var(--color04);
+    font-size: 15px;
+    margin-bottom: 120px;
+}
+
+div.caixa {
+    height: 415px;
+    width: 600px;
+    padding: 50px;
+    line-height: 1.6em;
+}
+
+div#c1 {
+    background-color: var(--color01);
+    border-radius: 10px 0 0 10px;
+    padding-right: 40px;
+}
+
+div#c2 {
+    background-color: var(--color02);
+    padding-right: 40px;
+}   
+
+div#c3 {
+    background-color: var(--color03);
+    border-radius: 0 10px 10px 0;
+    padding-right: 25px;
+}
+
+.botao1 {
+    color: var(--color01);
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    background-color: var(--color05);
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+}
+
+.botao2 {
+    color: var(--color02);
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    background-color: var(--color05);
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+}
+
+.botao3 {
+    color: var(--color03);
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    background-color: var(--color05);
+    padding: 15px 30px 15px 30px;
+    border-radius: 50px;
+}
+
+.botao1:hover {
+    background-color: var(--color01);
+    border: 3px solid var(--color04);
+    color: var(--color04);
+}
+
+.botao2:hover {
+    background-color: var(--color02);
+    border: 3px solid var(--color04);
+    color: var(--color04);
+}
+
+.botao3:hover {
+    background-color: var(--color03);
+    border: 3px solid var(--color04);
+    color: var(--color04);
+}
